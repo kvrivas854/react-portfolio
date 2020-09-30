@@ -2,3 +2,6 @@
 .hover:hover {
     color: var(--green-light);
 }
+button {
+    text-decoration: none;
+  }

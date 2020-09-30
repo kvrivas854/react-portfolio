@@ -16,7 +16,7 @@ function Home() {
       </p>
       <button className="spacing text-md green-base hover green-button roboto">
       <Link to="/contact" className={location.pathname === "/contact" ? "nav-link active" : "nav-link"}>
-Get in touch  
+        Get in touch  
         </Link>
       </button>
     </div>

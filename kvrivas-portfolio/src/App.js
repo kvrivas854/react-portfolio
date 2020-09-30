@@ -5,7 +5,7 @@ import Navbar from "./components/Navbar/index";
 import Home from "./components/Home/index";
 import About from "./components/pages/About";
 import Project from "./components/Project/index";
-import Contact from "./components/pages/Contact";
+import Contact from "./components/Contact/index";
 import Experience from "./components/Experience/index";
 
 import "./index.css"
@@ -20,7 +20,7 @@ function App() {
         <Route exact path="/" component={Home} />
         <Route exact path="/about" component={About} />
         <Route exact path="/projects" component={Project} />
-        <Route path="/contact" component={Contact} />
+        <Route exact path="/contact" component={Contact} />
         <Route path="/experience" component={Experience} />
       </div>
     </Router>
