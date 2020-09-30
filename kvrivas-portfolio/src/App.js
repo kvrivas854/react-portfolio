@@ -8,7 +8,6 @@ import Project from "./components/Project/index";
 import Contact from "./components/Contact/index";
 import Experience from "./components/Experience/index";
 
-import "./index.css"
 
 
 function App() {
