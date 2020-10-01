@@ -66,6 +66,10 @@ background-color: var(--green-light);
   line-height: 0.9;
   text-align: center;
   padding: 20px;
+  text-decoration: none;
+}
+a:link {
+  text-decoration: none;
 }
 
 /*  */
