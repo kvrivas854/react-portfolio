@@ -24,6 +24,7 @@ code {
     monospace;
 }
 
+
 .gray {
   color: var(--gray);
 }
@@ -114,9 +115,6 @@ font-size: 17px;
   align-content:space-evenly;
 }
 
-.mt-160 {
-margin:160px 0px 0px 0px;
-}
 
 .flex-container {
   padding: 0;

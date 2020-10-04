@@ -5,7 +5,7 @@ import "./style.css"
 function Home() {
   const location = useLocation();
   return (
-    <div className="mt-160">
+    <div className="m-20">
       <div className="text-md green-base roboto">
       Hi, my name is
       </div>
