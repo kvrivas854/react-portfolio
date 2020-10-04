@@ -1,4 +1,4 @@
-
+import React, {Component} from 'react';
 import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Navbar from "./components/Navbar/index";
@@ -10,7 +10,8 @@ import Experience from "./components/Experience/index";
 
 
 
-function App() {
+class App extends Component {
+render() {
   return (
     <div>
     <Router>
@@ -26,6 +27,6 @@ function App() {
     </div>
     
   );
-}
+    }
 
 export default App;

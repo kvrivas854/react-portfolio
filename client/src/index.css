@@ -23,7 +23,6 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
 .gray {
   color: var(--gray);
 }
@@ -113,11 +112,6 @@ font-size: 17px;
 .justify-evenly {
   align-content:space-evenly;
 }
-
-.mt-160 {
-margin:160px 0px 0px 0px;
-}
-
 .flex-container {
   padding: 0;
   margin: 0;
