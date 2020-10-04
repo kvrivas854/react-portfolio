@@ -1,5 +1,5 @@
-
 import React, {Component} from 'react';
+import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Navbar from "./components/Navbar/index";
 import Home from "./components/Home/index";
@@ -27,6 +27,6 @@ render() {
     </div>
     
   );
-}
     }
+
 export default App;

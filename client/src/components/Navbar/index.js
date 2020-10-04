@@ -46,8 +46,8 @@ function NavTabs() {
       </li>
       
     </ul>
-  </div>
-    
+
+  </div>  
   );
 }
 
